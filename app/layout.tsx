@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 
-const SITE_URL = "https://office-shops-godown-on-rent.vercel.app";
+const SITE_URL = "https://office-shops-godown-on-rent-in-agra.vercel.app";
 const GTM_ID = "GTM-TQJRS4F7";
 
 export const viewport: Viewport = {

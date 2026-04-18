@@ -37,7 +37,7 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "Mistral-AI", allow: "/" },
       { userAgent: "Timpibot", allow: "/" },
     ],
-    sitemap: "https://office-shops-godown-on-rent.vercel.app/sitemap.xml",
-    host: "https://office-shops-godown-on-rent.vercel.app",
+    sitemap: "https://office-shops-godown-on-rent-in-agra.vercel.app/sitemap.xml",
+    host: "https://office-shops-godown-on-rent-in-agra.vercel.app",
   };
 }
