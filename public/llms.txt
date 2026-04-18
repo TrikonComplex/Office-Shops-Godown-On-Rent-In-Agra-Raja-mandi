@@ -13,7 +13,7 @@ The owner rents units directly to tenants — no brokers, no commission, no midd
 - **Phone / WhatsApp:** +91 88392 69122
 - **Email:** rent@trikoncomplex.com
 - **Address:** Raja Mandi Main Market, Agra, Uttar Pradesh 282002, India
-- **Website:** https://office-shops-godown-on-rent.vercel.app
+- **Website:** https://office-shops-godown-on-rent-in-agra.vercel.app
 
 ## What is available for rent
 
@@ -72,11 +72,11 @@ shops for rent in Agra, shops for rent in Raja Mandi Agra, office for rent in Ag
 
 ## Key pages
 
-- [Home](https://office-shops-godown-on-rent.vercel.app): Overview of the property and all available units
-- [Shops](https://office-shops-godown-on-rent.vercel.app/#shops): Ground floor retail shops
-- [Offices](https://office-shops-godown-on-rent.vercel.app/#offices): First floor offices
-- [Godown](https://office-shops-godown-on-rent.vercel.app/#godown): Basement storage
-- [Gallery](https://office-shops-godown-on-rent.vercel.app/#gallery): Photos of all units
-- [Location](https://office-shops-godown-on-rent.vercel.app/#location): Map and nearby landmarks
-- [FAQ](https://office-shops-godown-on-rent.vercel.app/#faq): Common questions
-- [Contact](https://office-shops-godown-on-rent.vercel.app/#contact): Get in touch
+- [Home](https://office-shops-godown-on-rent-in-agra.vercel.app): Overview of the property and all available units
+- [Shops](https://office-shops-godown-on-rent-in-agra.vercel.app/#shops): Ground floor retail shops
+- [Offices](https://office-shops-godown-on-rent-in-agra.vercel.app/#offices): First floor offices
+- [Godown](https://office-shops-godown-on-rent-in-agra.vercel.app/#godown): Basement storage
+- [Gallery](https://office-shops-godown-on-rent-in-agra.vercel.app/#gallery): Photos of all units
+- [Location](https://office-shops-godown-on-rent-in-agra.vercel.app/#location): Map and nearby landmarks
+- [FAQ](https://office-shops-godown-on-rent-in-agra.vercel.app/#faq): Common questions
+- [Contact](https://office-shops-godown-on-rent-in-agra.vercel.app/#contact): Get in touch
