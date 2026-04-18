@@ -57,7 +57,7 @@ export default function Hero() {
           </motion.div>
 
           {/* Headline */}
-          <h1 className="hero-title font-display font-bold leading-[0.95] tracking-tight text-[clamp(3rem,9vw,7rem)]">
+          <h1 data-speakable className="hero-title font-display font-bold leading-[0.95] tracking-tight text-[clamp(3rem,9vw,7rem)]">
             <span className="block text-cream">Commercial Shops,</span>
             <span className="block">
               <span className="gold-text italic">Offices & Godown</span>
