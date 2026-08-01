@@ -2,6 +2,34 @@
 
 import { motion } from "framer-motion";
 
+const beforeAfterPairs = [
+  {
+    real: "/images/before-after/real_01_existing_garment_shop.jpg",
+    concept: "/images/before-after/concept_01_boutique.jpg",
+    label: "Existing shop → Boutique concept",
+  },
+  {
+    real: "/images/before-after/real_02_bare_unit.jpg",
+    concept: "/images/before-after/concept_02_paint_studio.jpg",
+    label: "Bare unit → Paint & colour studio concept",
+  },
+  {
+    real: "/images/before-after/real_03_bare_unit.jpg",
+    concept: "/images/before-after/concept_03_coaching_hub.jpg",
+    label: "Bare unit → Coaching / trade hub concept",
+  },
+  {
+    real: "/images/before-after/real_04_balcony_unit.jpg",
+    concept: "/images/before-after/concept_04_reception_office.jpg",
+    label: "Balcony-facing unit → Reception / office concept",
+  },
+  {
+    real: "/images/before-after/real_05_furnished_unit.jpg",
+    concept: "/images/before-after/concept_05_creative_office.jpg",
+    label: "Furnished unit → Creative office concept",
+  },
+];
+
 const galleryItems = [
   {
     src: "/images/Front_Image_complex_1.png",
@@ -118,6 +146,67 @@ export default function Gallery() {
               </figcaption>
             </motion.figure>
           ))}
+        </div>
+
+        {/* Real photo vs AI concept */}
+        <div className="mt-16 md:mt-24">
+          <div className="flex flex-wrap items-end justify-between gap-6 mb-10">
+            <div className="max-w-2xl">
+              <div className="section-tag">Real space, reimagined</div>
+              <h3 className="mt-3 font-display text-3xl md:text-4xl font-bold leading-[1.05]">
+                The actual unit,{" "}
+                <span className="gold-text italic">and one idea for it.</span>
+              </h3>
+              <p className="mt-4 text-cream/60 text-sm max-w-xl">
+                Left: an original, unedited photo of the space. Right: an
+                AI-generated concept showing one way it could be fitted out.
+                The concept is illustrative only — the exact layout,
+                fixtures and finish of your unit will be confirmed at
+                handover.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid gap-4 md:gap-5">
+            {beforeAfterPairs.map((pair, i) => (
+              <motion.div
+                key={pair.real}
+                initial={{ opacity: 0, y: 16 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-60px" }}
+                transition={{ duration: 0.6, delay: (i % 4) * 0.06 }}
+                className="grid grid-cols-2 gap-1.5 md:gap-2 rounded-2xl overflow-hidden border border-cream/10 bg-card"
+              >
+                <div className="relative aspect-[4/3]">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={pair.real}
+                    alt="Original unedited photo of the space at Trikon Complex, Raja Mandi"
+                    loading="lazy"
+                    className="w-full h-full object-cover"
+                  />
+                  <span className="absolute top-2.5 left-2.5 md:top-3 md:left-3 px-2.5 py-1 rounded-full bg-ink/85 backdrop-blur border border-cream/20 text-[9px] md:text-[10px] font-mono tracking-[0.15em] uppercase text-cream/90">
+                    Original photo
+                  </span>
+                </div>
+                <div className="relative aspect-[4/3]">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={pair.concept}
+                    alt="AI-generated fit-out concept for a unit at Trikon Complex, Raja Mandi"
+                    loading="lazy"
+                    className="w-full h-full object-cover"
+                  />
+                  <span className="absolute top-2.5 left-2.5 md:top-3 md:left-3 px-2.5 py-1 rounded-full bg-gold/90 backdrop-blur text-[9px] md:text-[10px] font-mono tracking-[0.15em] uppercase text-ink font-semibold">
+                    AI concept
+                  </span>
+                </div>
+                <div className="col-span-2 px-4 py-3 text-xs md:text-sm font-mono text-cream/60 bg-ink/40">
+                  {pair.label}
+                </div>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

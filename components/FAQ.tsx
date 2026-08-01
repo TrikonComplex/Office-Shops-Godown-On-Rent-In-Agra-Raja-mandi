@@ -30,6 +30,18 @@ const faqs = [
     a: "Call or WhatsApp +91 88392 69122. Visits are possible 7 days a week between 10 AM and 7 PM. For outstation enquiries, we can share a video walkthrough too.",
   },
   {
+    q: "What are good startup ideas for a shop at this location?",
+    a: "Businesses that benefit from daily bazaar footfall do best: boutique or garment stores, salons, pharmacies, electric & hardware, fancy lighting, stationery, gift/décor items, paint studios, and even a tattoo studio for a younger crowd. Professional setups like a CA office or coaching centre also work well on the upper floors, away from street noise.",
+  },
+  {
+    q: "Is Raja Mandi a prime location for a shop in Agra?",
+    a: "Yes. Raja Mandi is one of Agra's oldest and busiest commercial markets, walking distance from Raja Ki Mandi railway station, with steady daily footfall and a stream of tourists passing through toward the Taj Mahal circuit — a combination that's hard to find in newer commercial areas of the city.",
+  },
+  {
+    q: "What's the starting rent for a shop here?",
+    a: "Furnished shops start from ₹2,800 per month, with exact rent depending on floor, size and frontage. All shops come flooring-ready, wired, and lit — you just move in your stock and fittings.",
+  },
+  {
     q: "What are the rent and deposit terms?",
     a: "Rent depends on floor, size and intended use. Standard deposit is 3–6 months rent. Lock-in is flexible. Final terms are always discussed directly with the owner.",
   },
