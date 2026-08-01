@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
 import About from "@/components/About";
 import Spaces from "@/components/Spaces";
+import ShopCustomizer from "@/components/ShopCustomizer";
 import Gallery from "@/components/Gallery";
 import Location from "@/components/Location";
 import FAQ from "@/components/FAQ";
@@ -18,6 +19,7 @@ export default function Page() {
       <Marquee />
       <About />
       <Spaces />
+      <ShopCustomizer />
       <Gallery />
       <Location />
       <FAQ />
